@@ -1,0 +1,250 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('images/plantacion-pimientos.jpg');
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 729px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 6rem;
+  font-weight: 700;
+  font-family: Acme;
+  margin: 299px 29px 0 40px;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: Acme;
+  font-size: 1.875rem;
+  margin: 10px 7px 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 601px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 4.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    width: 460px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 460px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 345px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 217px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
+    width: 340px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 1152px;
+}
+
+.u-section-2 .u-gallery-1 {
+  height: 656px;
+  width: 415px;
+  grid-gap: 17px;
+  margin: -68px 11px 0 auto;
+}
+
+.u-section-2 .u-gallery-inner-1 {
+  grid-template-columns: repeat(1, auto);
+  grid-gap: 17px;
+}
+
+.u-section-2 .u-gallery-item-1 {
+  margin-right: 0;
+}
+
+.u-section-2 .u-over-slide-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-text-1 {
+  margin: -573px 448px 0 18px;
+}
+
+.u-section-2 .u-icon-1 {
+  width: 50px;
+  height: 50px;
+  background-image: none;
+  color: rgb(255, 255, 255) !important;
+  margin: 63px auto 0 48px;
+  padding: 10px;
+}
+
+.u-section-2 .u-text-2 {
+  font-family: Acme;
+  font-size: 1.6875rem;
+  line-height: 2.2;
+  margin: -50px 712px 0 120px;
+}
+
+.u-section-2 .u-icon-3 {
+  width: 50px;
+  height: 50px;
+  background-image: none;
+  color: rgb(255, 255, 255) !important;
+  margin: -113px auto 0 48px;
+  padding: 10px;
+}
+
+.u-section-2 .u-icon-4 {
+  width: 50px;
+  height: 50px;
+  background-image: none;
+  --radius: 42px;
+  color: rgb(255, 255, 255) !important;
+  margin: 18px auto 0 48px;
+  padding: 3px;
+}
+
+.u-section-2 .u-text-3 {
+  font-family: Acme;
+  font-size: 1.6875rem;
+  line-height: 2.2;
+  margin: 18px 144px 0 224px;
+}
+
+.u-section-2 .u-icon-5 {
+  font-size: 1.6875rem;
+  color: #111111;
+  background-color: #ffffff;
+}
+
+.u-section-2 .u-btn-1 {
+  --radius: 50px;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: Acme;
+  background-image: none;
+  margin: 22px auto 60px;
+  padding: 15px 37px 15px 35px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-text-1 {
+    margin-right: 266px;
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-right: 612px;
+    margin-left: 364px;
+  }
+
+  .u-section-2 .u-icon-3 {
+    --radius: 42px;
+  }
+
+  .u-section-2 .u-icon-4 {
+    margin-top: 11px;
+  }
+
+  .u-section-2 .u-text-3 {
+    margin-top: 8px;
+    margin-right: 44px;
+    margin-left: 124px;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-top: -56px;
+    margin-bottom: 36px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-text-1 {
+    margin-right: 46px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-right: 412px;
+    margin-left: 279px;
+  }
+
+  .u-section-2 .u-text-3 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-right: 232px;
+    margin-left: 209px;
+    font-size: 1rem;
+  }
+
+  .u-section-2 .u-icon-4 {
+    margin-top: -5px;
+  }
+
+  .u-section-2 .u-text-3 {
+    font-size: 1rem;
+    margin-top: 36px;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 1033px;
+  }
+
+  .u-section-2 .u-gallery-1 {
+    height: 537px;
+    width: 340px;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: -454px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-right: 32px;
+    margin-left: 132px;
+  }
+
+  .u-section-2 .u-text-3 {
+    margin-top: 21px;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-bottom: -40px;
+  }
+}
